@@ -16,12 +16,9 @@ const Home = () => (
       </h1>
 
       <ConditionallyRender client>
-        <motion.p animate={{ scale: 2 }} >
-          <p className="description">
+        <motion.p animate={{ scale: 0.90 }} className="description" >
             Get started by editing <code>pages/index.js</code>
-          </p>
         </motion.p>
-
       </ConditionallyRender>
 
       <div className="grid">
